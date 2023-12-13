@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
 
 :root {
-  --primary-soft-blue: hsl(215, 51%, 70%);
+  --primary-soft-blue: hsl(215, 23%, 45%);
   --primary-cyan: hsl(178, 100%, 50%);
   --primary-blue-link: hsl(228, 45%, 44%);
 
@@ -19,6 +19,7 @@
 
 body {
   background-color: var(--neutral-very-dark-blue);
+  font-family: var(--font-family-default);
   font-size: 1.125rem;
 }
 
@@ -31,15 +32,39 @@ img {
 .container {
   background-color: var(--neutral-very-dark-blue-2);
   border-radius: 10px;
+  box-sizing: border-box;
   box-shadow: 0 10px 20px 0;
   margin: 150px auto;
-  max-width: 350px;
+  max-width: 344px;
   padding: 20px;
 }
 
 /*Nft-image*/
 .nft-image img {
   border-radius: 10px;
+}
+
+/*Nft-preview*/
+.nft-preview h1 {
+  color: var(--neutral-white);
+  font-size: 1.375rem;
+  margin: 15px 0;
+}
+
+.nft-preview p {
+  color: var(--primary-soft-blue);
+}
+
+/*Nft-preview-price*/
+.nft-preview-price {
+  border-bottom: 1px solid var(--neutral-very-dark-blue-3);
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.nft-preview-price p:first-child {
+  color: var(--primary-cyan);
 }
 
 /*Footer*/
