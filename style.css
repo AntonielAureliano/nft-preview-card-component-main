@@ -6,8 +6,8 @@
   --primary-blue-link: hsl(228, 45%, 44%);
 
   --neutral-very-dark-blue: hsl(217, 54%, 11%);
-  --neutral-dark-blue-2: hsl(216, 50%, 16%);
-  --neutral-dark-blue-3: hsl(215, 32%, 27%);
+  --neutral-very-dark-blue-2: hsl(216, 50%, 16%);
+  --neutral-very-dark-blue-3: hsl(215, 32%, 27%);
   --neutral-white: hsl(0, 0%, 100%);
 
   --font-family-default: "Outfit", sans-serif;
@@ -18,7 +18,28 @@
 }
 
 body {
+  background-color: var(--neutral-very-dark-blue);
   font-size: 1.125rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*Container*/
+.container {
+  background-color: var(--neutral-very-dark-blue-2);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px 0;
+  margin: 150px auto;
+  max-width: 350px;
+  padding: 20px;
+}
+
+/*Nft-image*/
+.nft-image img {
+  border-radius: 10px;
 }
 
 /*Footer*/
