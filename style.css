@@ -50,6 +50,9 @@ img {
   font-size: 1.375rem;
   margin: 20px 0;
 }
+.nft-preview h1:hover {
+  color: var(--primary-cyan);
+}
 
 .nft-preview p {
   color: var(--primary-soft-blue);
@@ -98,8 +101,13 @@ img {
   border-radius: 50%;
 }
 
-.nft-creator span {
+.nft-creator a {
   color: var(--neutral-white);
+  text-decoration: none;
+}
+
+.nft-creator a:hover {
+  color: var(--primary-cyan);
 }
 
 /*Footer*/
