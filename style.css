@@ -78,7 +78,28 @@ img {
 
 .nft-preview-price p::before {
   content: url("./images/icon-clock.svg");
-  margin-right: 5px;
+  position: absolute;
+  right: 85px;
+  bottom: 18px;
+}
+
+/*Nft-creator*/
+.nft-creator {
+  align-items: center;
+  font-size: 1rem;
+  gap: 15px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.nft-creator img {
+  max-width: 30px;
+  border: 1px solid var(--neutral-white);
+  border-radius: 50%;
+}
+
+.nft-creator span {
+  color: var(--neutral-white);
 }
 
 /*Footer*/
