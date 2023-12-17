@@ -43,26 +43,29 @@ a {
   background-color: var(--neutral-very-dark-blue-2);
   border-radius: 10px;
   box-sizing: border-box;
-  box-shadow: 0 10px 20px 0;
+  box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.1);
   max-width: 344px;
   padding: 20px;
+  position: relative;
 }
 
 /*Nft-image*/
 .nft-image img {
   border-radius: 10px;
-  content: none;
-  transition: 0.1s;
-}
-
-.nft-image img:hover {
-  opacity: 0.6;
-  cursor: pointer;
+  transition: 0.1s all;
 }
 
 .nft-image {
   background-color: var(--primary-cyan);
+  background-image: url("./images/icon-view.svg");
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 15px;
+}
+
+.nft-image img:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 /*Nft-preview*/
